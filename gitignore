@@ -1,5 +1,5 @@
 # Restricted research data
-data/
+data/*.csv
 *.csv
 
 # Serialized models / generated artifacts
