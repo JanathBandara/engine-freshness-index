@@ -13,17 +13,7 @@ The methodology uses:
 
 ## Expected local files
 
-Authorized users who have access to the source data should place the following files in this directory:
-
-```text
-data/
-├── README.md
-├── January2025.csv
-├── February2025.csv
-└── March2025.csv
-```
-
-The CSV files are excluded from version control.
+Authorized users who have access to the source data should place the following files in this directory. The CSV files are excluded from version control.
 
 ## Variables used for EFI
 
@@ -52,6 +42,6 @@ The preprocessing workflow also uses the following fields to select the study po
 
 ## Reproducibility note
 
-The complete computational methodology is available in `notebooks/EFI_Methodology.ipynb`. The notebook documents preprocessing, feature standardization, K-means emission-profile discovery, clean-reference selection, EFI construction and calibration, supervised surrogate modelling, explainability, and temporal evaluation.
+The complete computational methodology is available in `notebooks/EFI_Methodology.ipynb`. The notebook documents preprocessing, feature standardization, K-means emission-profile discovery, clean-reference selection, EFI construction and calibration, supervised prediction modelling, explainability, and temporal evaluation.
 
 Because the source inspection records are not publicly redistributed, full execution of the notebook requires authorized access to the underlying monthly CSV files.

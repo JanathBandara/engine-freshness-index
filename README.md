@@ -32,7 +32,7 @@ The analysis is organized as:
 
 The raw dataset is **not included in this repository** because the records were provided for research use and are not redistributed publicly.
 
-Authorized users can place the monthly files locally under:
+Authorized users can place the monthly files locally under,
 
 ```text
 data/
